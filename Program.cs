@@ -31,16 +31,6 @@ namespace AvanceradLabbThreads
             thread2.Start();
             thread3.Start();
 
-           
-                Console.Clear();
-                Console.WriteLine("Race status:");
-                foreach (var car in Race)
-                {
-                    Console.WriteLine($"{car.Name}: {car.Distance:F2} km, {car.Speed} km/h");
-                }
-                Console.WriteLine();
-            
-
             thread4.Start();
 
             thread1.Join();

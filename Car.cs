@@ -36,8 +36,6 @@ namespace AvanceradLabbThreads
                 Thread.Sleep(1000);
                 Distance += (double)Speed / 3600;
 
-               
-
                 if (i % 5 == 0 && i != 0)
                 {
                     CarTrouble();
